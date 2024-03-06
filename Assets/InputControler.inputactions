@@ -1,0 +1,114 @@
+{
+    "name": "InputControler",
+    "maps": [
+        {
+            "name": "Movimiento",
+            "id": "1e8d7446-a9f6-4f86-b986-32d3f722cfc5",
+            "actions": [
+                {
+                    "name": "Salto",
+                    "type": "Button",
+                    "id": "379f20ee-b66e-4955-acf5-fd132cd4d692",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "agachar",
+                    "type": "Button",
+                    "id": "5f766616-fca2-4180-8b2c-0416d7a23e13",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "mover",
+                    "type": "Value",
+                    "id": "7b59b3d9-a005-4ca8-ac6b-5a6e890e8cdb",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "correr",
+                    "type": "Button",
+                    "id": "a5b53930-d7d3-4a2f-99c3-fa1b7f6e4791",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "rodar",
+                    "type": "Button",
+                    "id": "f8b2917f-75e4-49f4-98e2-7d11b8c4fbc5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "57494cf7-53c2-4766-bc29-5d7753fca8bd",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Salto",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b50c779f-17ff-459e-a6a7-047245446021",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "agachar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "811597ce-ac81-4f3f-8e5a-148b9a605f5e",
+                    "path": "<Gamepad>/leftStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "mover",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "178373b7-3cab-4a86-8b35-0ca13d49d877",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "correr",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9684c69a-8b7d-45a0-929c-ab39cfd58475",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "rodar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

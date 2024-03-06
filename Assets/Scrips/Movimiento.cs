@@ -81,9 +81,10 @@ public class Movimiento : MonoBehaviour
 
     private void Update()
     {
-        if (enMov <0)
+        valoraxis = enMov;
+        if (valoraxis < 0)
         {
-            valoraxis=enMov*-1;
+            valoraxis= valoraxis * -1;
         }
 
 
